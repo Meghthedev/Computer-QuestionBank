@@ -1,0 +1,133 @@
+/* Default Light Mode Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #3e3e3e;
+}
+
+.note {
+    font-style: italic;
+    text-align: center;
+    color: #666;
+}
+
+.mcq {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.mcq:hover {
+    background-color: #eef0f5;
+}
+
+button {
+    background-color: #3b86ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0066cc;
+}
+
+.answer {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2e8b57;
+    font-size: 18px;
+}
+
+button.answerButton {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Dark Mode Styling */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+body.dark-mode .container {
+    background-color: #2c2c2c;
+}
+
+body.dark-mode h1 {
+    color: #e0e0e0;
+}
+
+body.dark-mode .mcq {
+    background-color: #333;
+}
+
+body.dark-mode .mcq:hover {
+    background-color: #444;
+}
+
+body.dark-mode button {
+    background-color: #0066cc;
+}
+
+body.dark-mode button:hover {
+    background-color: #003366;
+}
+
+body.dark-mode .answer {
+    color: #9acd32;
+}
+
+body.dark-mode .note {
+    color: #bbb;
+}
+
+/* Button for Dark Mode Toggle */
+#darkModeToggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #3b86ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#darkModeToggle:hover {
+    background-color: #0066cc;
+}
